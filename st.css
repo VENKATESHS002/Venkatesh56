@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: 0;
+
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+body,html{
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bg1.jpg);
+    
+}
+
+nav{
+    background-color: yellow;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main{
+    display:block;
+}
+h1,ul,li{
+    display: inline;
+    width: 100px;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color: rgb(192, 125, 42);
+    cursor: pointer;
+    
+}
+li:hover{
+    color: black;
+}
+input{
+    width: 60%;
+    padding: 15px;
+    background-color:white;
+}
+.sear{
+    padding: 25px;
+    text-align: center;
+    position: sticky;
+}
+img{
+    width: 200px;
+    height: 250px;
+    
+}
+.m1{
+    border-color: yellow;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+button{
+    background-color: rgb(202, 202, 38);
+    width: 200px;
+    height: 40px;
+}
+h4{
+    background-color:yellow;
+    color: black;
+    text-align: center;
+}
+.m2{
+    border-color: yellow;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    top: 100px;
+
+}
+.m3{
+    border-color: yellow;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top: 100px;
+}
+.m4{
+    border-color: yellow;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    top: 100px;
+}
+
+.foot{
+    background-color: yellow;
+    background-position: center;
+    background-size: cover;
+    width: 1900px;
+    height: 100px;
+    text-align: center;
+    margin-top: 450px;
+    border-radius: 10px;
+}
+h4{
+    padding: 10px;
+}
+@media (max-width:480px) {
+    body{
+        background-image: url(bg1.jpg);
+    }
+    
+}
